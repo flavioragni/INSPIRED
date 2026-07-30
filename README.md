@@ -675,12 +675,16 @@ These outputs visualise:
 
 Add the associated INSPIRED publication when available:
 
-```bibtex
-@article{author_year_inspired,
-  title   = {Title of the associated INSPIRED study},
-  author  = {Author list},
-  journal = {Journal},
-  year    = {Year},
-  doi     = {DOI}
+```@article {Ragni2026.07.28.26359113,
+	author = {Ragni, Flavio and Bresolin, Paolo and Cocu, Madalina and Bovo, Stefano and Malfatti, Giulia and Cagol, Diego and Inchiostro, Sandro and Romanelli, Federica and Moroni, Monica and Jurman, Giuseppe},
+	title = {Toward Personalized Diabetic Retinopathy Screening: Deep Learning Fundus Image Analysis and Clinical Risk Factors},
+	elocation-id = {2026.07.28.26359113},
+	year = {2026},
+	doi = {10.64898/2026.07.28.26359113},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	abstract = {Diabetic retinopathy (DR) screening commonly relies on fixed follow-up intervals, although progression risk differs across patients. We developed a preliminary image-clinical framework to support personalized follow-up recommendations from retinal fundus images and systemic risk factors. Public DR datasets were harmonized into a binary task distinguishing absence of DR from DR of any grade. An ImageNet-pretrained ResNet50 and a foundation model-based feature extraction pipeline were compared. The selected image model was integrated with literature-derived severe retinopathy progression curves and clinical risk modifiers to estimate personalized cumulative risk and assign follow-up intervals using a predefined acceptable risk threshold. The ResNet50-based model was selected for subsequent analyses. In the target cohort, the integrated model assigned 90.0\% of patients to follow-up within 12 months. Clinical adjustment substantially modified image-only recommendations, generally shifting patients toward shorter intervals. These preliminary findings support the feasibility of combining image-derived estimates of baseline DR status with clinical modifiers to inform personalized screening intervals. Larger longitudinal studies are needed to validate calibration, clinical utility, and safety before real-world implementation.Competing Interest StatementThe authors have declared no competing interest.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:The study protocol was approved by the Territorial Ethics Committee of the Autonomous Province of Trento on 20 March 2024 (Ethics Committee register no. A958; protocol code INSPIRED-2023), and written informed consent was obtained from all participants prior to enrollment.I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.YesDatasets and code supporting this study are available from the authors upon reasonable request.Digital Health and Artificial Intelligence project, supported by the Autonomous Province of Trento, Provincial Government Resolution No. 2475, December 22, 2022},
+	URL = {https://www.medrxiv.org/content/early/2026/07/29/2026.07.28.26359113},
+	eprint = {https://www.medrxiv.org/content/early/2026/07/29/2026.07.28.26359113.full.pdf},
+	journal = {medRxiv}
 }
 ```
